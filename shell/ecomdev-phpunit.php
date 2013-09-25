@@ -17,6 +17,8 @@
  */
 
 require_once 'abstract.php';
+require_once '../app/code/core/Mage/Core/Model/Factory.php';
+require_once '../app/Mage.php';
 
 /**
  * Shell script for autoinstalling of required files for phpunit extension
